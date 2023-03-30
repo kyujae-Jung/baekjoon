@@ -10,8 +10,8 @@ class Solution {
         if (depth == numbers.length) {
             int sum = 0;
 
-            for (int number : numbers) {
-                sum += number;
+            for (int i=0; i<depth; i++) {
+                sum += numbers[i];
             }
 
             if (sum == target) {
